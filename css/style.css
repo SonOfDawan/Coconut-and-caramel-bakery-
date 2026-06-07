@@ -5,6 +5,7 @@
   --text-muted: #7A6359;
   --brand-primary: #D4A373;
   --brand-hover: #CC8B45;
+  --text-light: #F4E9DF;
 }
 
 *,
@@ -69,7 +70,7 @@ select {
 }
 
 .hero__content p {
-  color: #f4e9df;
+  color: var(--text-light);
 }
 
 #see-more-btn {
@@ -87,16 +88,4 @@ select {
 #see-more-btn:hover,
 #see-more-btn:focus-visible {
   background-color: var(--brand-hover);
-}
-
-.flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.grid-responsive {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
