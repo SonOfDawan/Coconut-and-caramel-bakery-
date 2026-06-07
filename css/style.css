@@ -1,0 +1,102 @@
+:root {
+  --bg-main: #FDFBF7;
+  --bg-card: #FFFFFF;
+  --text-dark: #2C1E16;
+  --text-muted: #7A6359;
+  --brand-primary: #D4A373;
+  --brand-hover: #CC8B45;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  color: var(--text-dark);
+  background-color: var(--bg-main);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.hero {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("../assets/hero-background.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero__overlay {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.hero__content {
+  display: grid;
+  gap: 1rem;
+  text-align: center;
+  max-width: 42rem;
+  color: var(--bg-card);
+}
+
+.hero__content p {
+  color: #f4e9df;
+}
+
+#see-more-btn {
+  justify-self: center;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--brand-primary);
+  color: var(--text-dark);
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#see-more-btn:hover,
+#see-more-btn:focus-visible {
+  background-color: var(--brand-hover);
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-responsive {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
