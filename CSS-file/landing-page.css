@@ -72,7 +72,7 @@
 
 .hero__title {
     font-family: 'Nosifer', cursive;
-    font-size: 24px;
+    font-size: 29px;
     margin-bottom: 0px;
     background: linear-gradient(to top, #f0af89 20%, #9e5226 80%);
     -webkit-background-clip: text;
@@ -95,6 +95,7 @@
 
 
 .hero__write-up {
+    font-size: 19px;
     animation: slide-in 3s ease-out both;
 }
 
