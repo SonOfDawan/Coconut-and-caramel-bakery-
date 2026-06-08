@@ -30,7 +30,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0.43);
     padding: 24px;
 }
 
@@ -93,6 +93,22 @@
     }
 }
 
+
+.hero__write-up {
+    animation: slide-in 3s ease-out both;
+}
+
+@keyframes slide-in {
+  from {
+        transform: translateX(150vw) scaleX(2);
+        opacity: 0;
+  }
+
+  to {
+        transform: translateX(0) scaleX(1);
+        opacity: 1;
+  }
+}
 
 .footer {
     background-color: rgba(0, 0, 0, 0.7);
