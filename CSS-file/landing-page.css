@@ -15,7 +15,7 @@
     width: fit-content;
     padding: 20px;
     font-family: 'Nosifer', cursive;
-    font-size: 12px;
+    font-size: 18px;
     color: #d0c1b9;
     text-align: center;
 }
@@ -54,6 +54,22 @@
     transition: background-color 0.3s ease;
 }
 
+:hover#see-more-btn {
+    background-color:#ffc29f ;
+    color: #983801;
+    transition-duration: 0.45s;
+}
+
+#see-more-btn:active {
+    background-color: #955000ed;
+    color: #fff;
+}
+
+:touch#see-more-btn {
+    background-color: #955000ed;
+    color: #fff;
+}
+
 .hero__title {
     font-family: 'Nosifer', cursive;
     font-size: 24px;
@@ -63,5 +79,27 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
+      animation: floatGlow 3s ease-in-out infinite;
 }
 
+@keyframes floatGlow {
+    0%, 100% {
+        transform: translateY(0);
+        filter: drop-shadow(0 0 0 rgba(41, 19, 6, 0.697));
+    }
+    50% {
+        transform: translateY(-6px);
+        filter: drop-shadow(0 0 10px rgba(236, 184, 152, 0.304));
+    }
+}
+
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
