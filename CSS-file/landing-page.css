@@ -9,13 +9,13 @@
 
 .top-logo {
     position: absolute;
-    top: 20px;
+    top: 30px;
     left: 50%;
     transform: translateX(-50%);
     width: fit-content;
     padding: 20px;
     font-family: 'Nosifer', cursive;
-    font-size: 18px;
+    font-size: 24px;
     color: #d0c1b9;
     text-align: center;
 }
@@ -37,7 +37,7 @@
 .hero__content {
     max-width: 720px;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
     padding: 20px;
 }
@@ -75,7 +75,7 @@
 
 .hero__title {
     font-family: 'Nosifer', cursive;
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 0px;
     background: linear-gradient(to top, #f0af89 20%, #9e5226 80%);
     -webkit-background-clip: text;
@@ -94,6 +94,23 @@
         transform: translateY(-6px);
         filter: drop-shadow(0 0 10px rgba(236, 184, 152, 0.304));
     }
+}
+
+.hero__write-up {
+    font-size: 19px;
+    animation: slide-in 3s ease-out both;
+}
+
+@keyframes slide-in {
+  from {
+        transform: translateX(150vw) scaleX(2);
+        opacity: 0;
+  }
+
+  to {
+        transform: translateX(0) scaleX(1);
+        opacity: 1;
+  }
 }
 
 
