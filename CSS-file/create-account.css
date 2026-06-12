@@ -5,13 +5,32 @@ body{
     height: 80vh;
     margin: 0;
    
-    background: url("image/1.jpg");
+    background-color: #ab663e;
     
 }
 
-.create-acc{
+main{
+  background: rgba(0, 0, 0, 0.43);
+  padding: 100%;
+}
 
-    max-width: 480px;
+.top-logo {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    padding: 20px;
+    font-family: 'Nosifer', cursive;
+    font-size: 24px;
+    color: #d0c1b9;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.create-acc{
+    max-width:500px ;
+    min-width: 300px;
     margin: 2rem auto;
     background: #fff;
     padding: 1.5rem;
@@ -77,6 +96,19 @@ body{
     box-shadow: 0 6px 20px rgba(158,82,38,0.12);
     transform: translateY(-1px);
   }
+
+  .whatsapp-label{
+    background-color: #fff;
+    color: #9e5226;
+    font-size: 12px;
+    position: absolute;
+    left: 12px;
+    top: -10px;
+    padding: 0 6px;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+
   .password{
     width: 90%;
     padding: 12px 14px;
@@ -84,7 +116,7 @@ body{
     border: 1px solid #e6d7d0
   }
   .botton{
-    background-color: #769277;
+    background-color: #90412a;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -92,4 +124,15 @@ body{
     cursor: pointer;
     font-size: 16px;
     margin-top: 20px;
+  }
+  .botton:hover{
+    background-color: #ffc29f;
+    color: #983801;
+    transition-duration: 0.45s;
+  }
+
+  .botton:active{
+    background-color: #009416ed;
+    color: #fff;
+    transition-duration: 0.35s;
   }

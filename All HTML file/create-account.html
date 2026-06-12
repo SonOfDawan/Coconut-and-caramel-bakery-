@@ -4,27 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Cocoa and Caramel Bakery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../CSS-file/create-account.css" />
   </head>
   <body>
-    <div class="create-acc">
-      <h3>Create Account</h3>
-      <div class="field">
-        <label for="username" class="input-label">Username</label>
-        <input id="username" class="username" type="text" placeholder="JOHN" />
-      </div>
-      <div class="whatsappfield">
-        <label for="whatsappnumber">Whatsapp Number</label>
-        <input
-          class="whatsappnumber"
-          type="tel"
-          placeholder="+234 7087240931"
-        />
-      </div>
-      <label for="password">Password</label>
-      <input class="password" type="password" placeholder="********" />
-      <button type="submit" class="botton">Create Account</button>
-      <h4>Already have an account? <a href="login.html">Login</a></h4>
-    </div>
+ <main class="main">
+         <div class="top-logo">
+            C&#x26;C <br />
+            Bakery 
+         </div>   
+      <div class="create-acc">
+           <h3>Create Account</h3>
+
+           <div class="field">
+              <label for="username" class="input-label">Username</label>
+              <input id="username" class="username" type="text" placeholder="JOHN" />
+           </div>
+
+           <div class="field">
+              <label for="whatsappnumber" class="input-label">Whatsapp Number</label>
+              <input class="whatsappnumber" type="tel" placeholder="+234 7087240931" />
+           </div>
+
+           <div class="field">
+              <label for="password" class="input-label">Password</label>
+              <input class="password" type="password" placeholder="********" />
+          </div> 
+             <button type="submit" class="botton">Create Account</button>
+           <h4>Already have an account? <a href="login.html">Login</a></h4>
+          </div>
+     </div>
+ </main>
   </body>
 </html>
