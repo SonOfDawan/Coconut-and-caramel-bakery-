@@ -2,16 +2,30 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    min-height: 100vh;
     margin: 0;
-   
-    background-color: #ab663e;
+    background-repeat: no-repeat;
+    background-image: url(../IMAGE/signup-background.jpeg);
+    background-size: cover;
     
+.top-logo {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    padding: 20px;
+    font-family: 'Nosifer', cursive;
+    font-size: 24px;
+    color: #d0c1b9;
+    text-align: center;
+}
+
 }
 .login{
     max-width:500px ;
     min-width: 300px;
-    margin: 2rem auto;
+    margin-bottom: 180px;
     background: #fff;
     padding: 1.5rem;
     border-radius: 18px;
