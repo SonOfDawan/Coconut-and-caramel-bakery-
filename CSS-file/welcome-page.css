@@ -1,16 +1,20 @@
 body{
     margin: 0;
+    background-image: url(../IMAGE/Hero\ Cake\ 3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     
-    background-color: #ab663e;
 }
 
+
 main{
-    background: rgba(0, 0, 0, 0.43);
+    background: rgba(3, 2, 2, 0.604);
     min-height: 100vh;
     display: flex;
     align-items:center;
     justify-content: center;
-    padding: 24px;
+    padding: 25px;
 }
 
 
@@ -69,4 +73,101 @@ main{
 
 .text{
     display: inline;
+    padding-left: 100px;
 }
+
+.icon{
+    max-width: 50px;
+}
+
+.icon:hover{
+    box-shadow: #fff6f6;
+}
+
+.top-logo {
+    position: absolute;
+    top: 30px;
+    width: fit-content;
+    padding: 20px;
+    font-family: 'Nosifer', cursive;
+    font-size: 24px;
+    color: #FFFAF0;
+    text-align: center;
+}
+span{
+    color: bisque;
+
+}
+
+    
+
+.cart {
+    position: absolute;
+    top: 30px;
+    right: 80px;
+    width: fit-content;
+    padding: 0;
+}
+
+.cart img {
+    max-width: 55px;
+    cursor: pointer;
+}
+
+.greeting {
+    margin-top: 0;
+    padding-top: 175px;
+}
+
+.greeting-user {
+    font-size: 40px;
+    color: #d9cccc;
+    font-weight: bold;
+    margin: 25px 0 10px 0;
+    font-family: 'Nosifer','Arial';
+}
+
+.greeting p {
+    font-size: 20px;
+    color: #F7E7CE;
+    margin: 15px
+    line-height: 1.5;
+    
+}
+
+.catalog {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.catalog li {
+    list-style: none;
+}
+
+.catalog a {
+    display: flex;
+    align-items: center;
+    text-decoration:solid;
+    color: #333;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.catalog h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #eabe6c;
+    font-family: 'Nosifer';
+    font-weight: 500;
+}
+
+.catalog a:hover {
+    transform: translateX(5px);
+    transition: transform 0.2s ease;
+}
+
