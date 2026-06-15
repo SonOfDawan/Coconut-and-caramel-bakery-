@@ -1,13 +1,27 @@
+html,
+body {
+  height: 100%;
+}
+
 body{
+  margin: 0;
+  min-height: 100dvh;
+  background-repeat: no-repeat;
+  background-image: url(../IMAGE/signup-background.jpeg);
+  background-size: cover;
+  background-position: center;
+}   
+
+main{background: rgba(3, 2, 2, 0.604);
+  min-height: 100dvh;
+  width: 100%;
     display: flex;
+    align-items:center;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-image: url(../IMAGE/signup-background.jpeg);
-    background-size: cover;
-    
+    padding: 25px;
+  box-sizing: border-box;
+}
+
 .top-logo {
     position: absolute;
     top: 30px;
@@ -21,11 +35,11 @@ body{
     text-align: center;
 }
 
-}
+
 .login{
     max-width:500px ;
     min-width: 300px;
-    margin-bottom: 180px;
+    margin-bottom: 160px;
     background: #fff;
     padding: 1.5rem;
     border-radius: 18px;
