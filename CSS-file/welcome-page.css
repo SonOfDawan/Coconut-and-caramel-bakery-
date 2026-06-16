@@ -1,6 +1,7 @@
 body{
     margin: 0;
-    background-image: url(../IMAGE/Hero\ Cake\ 3.jpeg);
+    /* background-image: url(../IMAGE/Hero\ Cake\ 3.jpeg); */
+    background:#2c1c22;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
