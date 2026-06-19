@@ -1,11 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding Cake Collection</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../CSS-file/giftbox.css" />
+  </head>
+  <body>
+    <section class="cake-wrapper">
+      <!-- LEFT SIDE -->
+      <div class="text">
+        <div class="top-logo">
+          C<span>&#x26;</span>C <br />
+          Bakery
+        </div>
+
+      <div class="cake-list">
+        <h2>Gift Box Collection</h2>
+
+        <div class="cake-card active">
+          <img src="../IMAGE/Gift Box 1.jpg" />
+
+          <div>
+            <h3>Rose Petal Gift Box</h3>
+            <p>Starts at $180</p>
+          </div>
+        </div>
+
+        <div class="cake-card">
+          <img src="../IMAGE/Gift Box 2.jpg" />
+
+          <div>
+            <h3>Golden Moments Box</h3>
+            <p>Starts at $150</p>
+          </div>
+        </div>
+
+        <div class="cake-card">
+          <img src="../IMAGE/Gift Box 3.jpg" />
+
+          <div>
+            <h3>Ever AFter Gift Box</h3>
+            <p>Starts at $220</p>
+          </div>
+        </div>
+
+        <div class="cake-card">
+          <img src="../IMAGE/Gift Box 4.jpg" />
+
+          <div>
+            <h3>Blush and Bloom Box</h3>
+            <p>Starts at $250</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE -->
+
+      <div class="customizer">
+        <img id="cakeImage" class="hero-image" src="../IMAGE/Gift Box 1.jpg" />
+
+        <h1 id="cakeName">Rose Petal Gift Box</h1>
+
+        <div class="section">
+          <h3>Select Size</h3>
+
+          <div class="sizes">
+            <button>6 Inch</button>
+            <button>8 Inch</button>
+            <button>10 Inch</button>
+            <button>12 Inch</button>
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>Choose Flavor</h3>
+
+          <div class="flavors">
+            <label><input type="radio" name="flavor" /> Vanilla</label>
+            <label><input type="radio" name="flavor" /> Chocolate</label>
+            <label><input type="radio" name="flavor" /> Red Velvet</label>
+            <label><input type="radio" name="flavor" /> Strawberry</label>
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>Decoration Color</h3>
+
+          <div class="colors">
+            <span class="pink"></span>
+            <span class="ivory"></span>
+            <span class="gold"></span>
+            <span class="lavender"></span>
+            <span class="sage"></span>
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>Message</h3>
+
+          <input type="text" placeholder="Happy Wedding Sarah & John" />
+        </div>
+
+        <div class="summary">
+          <h2>Total</h2>
+
+          <h1 id="price">$180</h1>
+
+          <button class="cart-btn">Add To Cart</button>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
