@@ -1,7 +1,6 @@
 body{
     margin: 0;
-    /* background-image: url(../IMAGE/Hero\ Cake\ 3.jpeg); */
-    background:#2c1c22;
+    background-image: url(../IMAGE/WP\ BG\ image.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -129,7 +128,7 @@ span{
 }
 
 .greeting p {
-    font-size: 20px;
+    font-size: 30px;
     color: #F7E7CE;
     margin: 15px
     line-height: 1.5;
@@ -172,3 +171,105 @@ span{
     transition: transform 0.2s ease;
 }
 
+@media (max-width: 800px) {
+  main {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 15px;
+    min-height: unset;
+    position: relative;
+    padding-top: 80px;
+  }
+
+  #slider-image {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .top-logo {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    padding: 0;
+    width: fit-content;
+    text-align: center;
+  }
+
+  .cart {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 0;
+    width: fit-content;
+  }
+
+  .cart img {
+    max-width: 45px;
+  }
+
+  .greeting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0 20px 0;
+    padding: 0 15px;
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .greeting-user {
+    font-size: 22px;
+    margin: 0 0 8px 0;
+    color: #eabe6c;
+  }
+
+  .greeting p {
+    font-size: 20px;
+    margin: 0;
+    line-height: 1.5;
+    color: #f5e6d3;
+  }
+
+  .catalog {
+    width: 100%;
+    max-width: 400px;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 0 15px;
+    margin-top: 20px;
+  }
+
+  .catalog a {
+    gap: 10px;
+    text-decoration: none;
+    color: #eabe6c;
+  }
+
+  .catalog h3 {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+}
