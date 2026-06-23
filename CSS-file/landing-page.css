@@ -1,6 +1,5 @@
 .landing-page {
-    /* background-image: url("../IMAGE/1.jpg"); */
-    background:#2c1c22;
+    background-image: url("../IMAGE/1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
